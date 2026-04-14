@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportX | Performance e Movimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Navegação Principal">
+            <div class="logo">Sport<span>X</span></div>
+            <div class="controls" aria-label="Controles de Acessibilidade">
+                <button id="btn-contrast" title="Alternar Alto Contraste" aria-pressed="false">🌓</button>
+                <button id="font-up" title="Aumentar Fonte">A+</button>
+                <button id="font-down" title="Diminuir Fonte">A-</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title">Supere seus Limites</h1>
+                <p>Equipamentos e treinos para quem vive o esporte intensamente.</p>
+                <a href="#modalidades" class="btn-cta">Ver Modalidades</a>
+            </div>
+        </section>
+
+        <section id="modalidades" class="reveal section-padding" aria-labelledby="mod-title">
+            <h2 id="mod-title" class="section-title">Nossas Modalidades</h2>
+            <div id="grid-modalidades" class="grid-container">
+                </div>
+        </section>
+
+        <section class="reveal section-padding bg-alt" aria-labelledby="faq-title">
+            <h2 id="faq-title" class="section-title">Dúvidas Comuns</h2>
+            <div id="faq-container" class="accordion">
+                </div>
+        </section>
+
+        <section class="reveal section-padding" aria-label="Galeria de Destaques">
+            <h2 class="section-title">Equipamentos em Destaque</h2>
+            <div class="carousel">
+                <div class="carousel-track" id="carousel-track" role="region
